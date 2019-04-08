@@ -22,10 +22,10 @@ INSERT INTO `jobs` (name, label, whitelisted) VALUES
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-  (@job_name, 0, 'barman', 'Barman', 300, '{}', '{}'),
-  (@job_name, 1, 'dancer', 'Danseur', 300, '{}', '{}'),
-  (@job_name, 2, 'viceboss', 'Co-gérant', 500, '{}', '{}'),
-  (@job_name, 3, 'boss', 'Gérant', 600, '{}', '{}')
+  (@job_name, 0, 'BarMan', 'BarMan', 950, '{}', '{}'),
+  (@job_name, 1, 'ButtaFuori', 'ButtaFuori', 1050, '{}', '{}'),
+  (@job_name, 2, 'ViceBoss', 'ViceBoss', 1150, '{}', '{}'),
+  (@job_name, 3, 'Boss', 'Boss', 1250, '{}', '{}')
 ;
 
 INSERT INTO `items` (`name`, `label`, `limit`) VALUES  
@@ -36,29 +36,29 @@ INSERT INTO `items` (`name`, `label`, `limit`) VALUES
     ('tequila', 'Tequila', 5),
     ('martini', 'Martini blanc', 5),
     ('soda', 'Soda', 5),
-    ('jusfruit', 'Jus de fruits', 5),
-    ('icetea', 'Ice Tea', 5),
-    ('energy', 'Energy Drink', 5),
+    ('jusfruit', 'Succo di Frutta', 5),
+    ('icetea', 'Te\' ghiacciato', 5),
+    ('energy', 'RedBull', 5),
     ('drpepper', 'Dr. Pepper', 5),
-    ('limonade', 'Limonade', 5),
-    ('bolcacahuetes', 'Bol de cacahuètes', 5),
-    ('bolnoixcajou', 'Bol de noix de cajou', 5),
-    ('bolpistache', 'Bol de pistaches', 5),
-    ('bolchips', 'Bol de chips', 5),
-    ('saucisson', 'Saucisson', 5),
-    ('grapperaisin', 'Grappe de raisin', 5),
+    ('limonade', 'Limonata', 5),
+    ('bolcacahuetes', 'Ciotola di noccioline', 5),
+    ('bolnoixcajou', 'Ciotola di Anacardi', 5),
+    ('bolpistache', 'Ciotola di pistacchi', 5),
+    ('bolchips', 'Ciotola di patatine', 5),
+    ('saucisson', 'Salsiccia', 5),
+    ('grapperaisin', 'Grappolo d\'uva', 5),
     ('jagerbomb', 'Jägerbomb', 5),
     ('golem', 'Golem', 5),
     ('whiskycoca', 'Whisky-coca', 5),
     ('vodkaenergy', 'Vodka-energy', 5),
-    ('vodkafruit', 'Vodka-jus de fruits', 5),
-    ('rhumfruit', 'Rhum-jus de fruits', 5),
+    ('vodkafruit', 'Vodka-Succo di frutta', 5),
+    ('rhumfruit', 'Rhum-succo di frutta', 5),
     ('teqpaf', "Teq'paf", 5),
     ('rhumcoca', 'Rhum-coca', 5),
     ('mojito', 'Mojito', 5),
-    ('ice', 'Glaçon', 5),
-    ('mixapero', 'Mix Apéritif', 3),
+    ('ice', 'Ghiaccio', 5),
+    ('mixapero', 'Mix Aperitivo', 3),
     ('metreshooter', 'Mètre de shooter', 3),
     ('jagercerbere', 'Jäger Cerbère', 3),
-    ('menthe', 'Feuille de menthe', 10)
+    ('menthe', 'Foglio di Menta', 10)
 ;
